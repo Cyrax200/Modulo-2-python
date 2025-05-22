@@ -2,10 +2,10 @@
 num = int(input("Digite um numero para saber seu fatorial: "))
 cont = num
 fat = 1
-while cont > 0:
+while cont > 1:
     fat*=cont
     cont-= 1
-print(fat)
+print(f"O fatorial do  {num} é {fat}")
 
 
 
